@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dg_misc
-LIBS:microaltair-serial-cache
+LIBS:altairmicro-serial-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -360,7 +360,7 @@ F 1 "CP1_Small" H 8735 1070 50  0001 L CNN
 F 2 "" H 8725 1150 60  0000 C CNN
 F 3 "" H 8725 1150 60  0000 C CNN
 	1    8725 1150
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR?
